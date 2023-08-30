@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ISFT151 - Instituto Superior de Formación Técnica 151</title>
+</head>
+
+<body>
+    <header>
+        <h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4CwVdJSu7Q3yRZb4ymlOtIc8J1RY8-xxoz4ccLKmFgrummmniGD_cC_EGglOQaIHuIEM&usqp=CAU"
+            alt="Título del Instituto Superior de Formación Técnica 151">
+            </h1>
+        <nav>
+            <a href="#promotion">Promoción</a>
+            <a href="#courses">Carreras</a>
+            <a href="#registration">Inscripción</a>
+        </nav>
+    </header>
+
+    <section id="promotion">
+        <h2>Promoción</h2>
+        <p>Bienvenido al Instituto Superior de Formación Técnica 151. ¡Descubre nuestras carreras y comienza tu camino
+            hacia el éxito profesional!</p>
+    </section>
+
+    <section id="courses">
+        <h2>Carreras</h2>
+        <ul id="courses-list">
+            <!-- Aquí se agregarán dinámicamente las carreras -->
+        </ul>
+    </section>
+
+    <section id="registration">
+        <h2>Inscripción</h2>
+        <p>Completa el formulario de inscripción para la carrera de tu elección:</p>
+        <form id="registration-form">
+            <select id="course-select" required>
+                <option value="" disabled selected>Selecciona una carrera</option>
+                <!-- Aquí se agregarán dinámicamente las opciones de carrera -->
+            </select>
+            <input type="text" id="name-input" placeholder="Nombre" required>
+            <input type="text" id="email-input" placeholder="Email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="descriptions">
+        <h2>Descripciones de Carreras</sh2>
+        <div id="course-descriptions">
+            <!-- Aquí se agregarán dinámicamente las descripciones de las carreras -->
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
